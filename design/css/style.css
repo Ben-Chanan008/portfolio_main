@@ -169,3 +169,15 @@ img {
 		transform: translateX(40%);
 	}
 }
+
+@media screen and (max-width: 400px) {
+	.center-content h2 {
+		font-size: 30px !important;
+		text-align: center;
+	}
+
+	.d-grid {
+		display: grid !important;
+		grid-template-columns: 1fr;
+	}
+}
