@@ -153,5 +153,19 @@ p {
 }
 
 img {
-	object-fit: fill;
+	object-fit: cover;
+}
+
+/* a:hover {
+	animation: slide .8s ease-in-out;
+} */
+
+@keyframes slide {
+	from {
+		transform: translateX(0%);
+	}
+
+	to {
+		transform: translateX(40%);
+	}
 }

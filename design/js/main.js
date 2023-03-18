@@ -119,3 +119,7 @@ $('.contact').addEventListener('click', () => {
 
 $animate({ content: $("h2"), iterations: 1, option: false });
 // $fade({ content: $(".blink"), start: 0, end: 1, duration: 2000, iterations: 2 });
+
+const button = $all('.btn-dark');
+const arrow = $all('.fa-arrow-right-long');
+console.log(button)
